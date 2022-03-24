@@ -1,16 +1,12 @@
 //*Ten plik nie jest kompilowany (_nazwa), a jest dołączony poprzez @import
 
-body {
-  display: flex;
-  justify-content: center;
-}
-
 .wrapper {
   width: 80vw;
   font-size: 1.5rem;
+  margin: 0 auto;
 }
 
-.form {
+.generator {
   margin: 20px;
 }
 
@@ -25,7 +21,8 @@ body {
 .person {
   display: flex;
   align-items: center;
-  .name {
+  
+  &__name {
     text-transform: uppercase;
     font-size: 1.5rem;
     margin-left: 20px;

@@ -13,34 +13,35 @@
   </head>
   <body>
     <div class="wrapper">
-      <form class="form" action="/">
-        <label for="sex">Wybierz płeć</label>
-        <select id="sex" name="sex">
+      <form class="generator">
+        <label class="generator__label" for="gender">Wybierz płeć</label>
+        <select class="generator__gender" id="gender" name="gender">
           <option value="all">Wszyscy</option>
           <option value="male">Mężczyzna</option>
           <option value="female">Kobieta</option>
         </select>
-        <label for="count">Liczba osób</label>
-        <input type="number" name="count" id="count">
-        <button type="submit">Pobierz</button>
+        <label class="generator__label" for="count">Liczba osób</label>
+        <input class="generator__count" type="number" name="count" id="count">
+        <button class="generator__btn" type="submit">Pobierz</button>
       </form>
       <div class="people">
         <div class="person">
-          <img src="https://randomuser.me/api/portraits/med/men/75.jpg" alt="avatar">
-          <h2 class="name">Mr Brad Gibson</h2>
+          <img class="person__image" src="https://randomuser.me/api/portraits/med/men/75.jpg" alt="avatar">
+          <h2 class="person__name">Mr Brad Gibson</h2>
         </div>
         <div class="person">
-          <img src="https://randomuser.me/api/portraits/med/men/75.jpg" alt="avatar">
-          <h2 class="name">Mr Brad Gibson</h2>
+          <img class="person__image" src="https://randomuser.me/api/portraits/med/men/75.jpg" alt="avatar">
+          <h2 class="person__name">Mr Brad Gibson</h2>
         </div>
         <div class="person">
-          <img src="https://randomuser.me/api/portraits/med/men/75.jpg" alt="avatar">
-          <h2 class="name">Mr Brad Gibson</h2>
+          <img class="person__image" src="https://randomuser.me/api/portraits/med/men/75.jpg" alt="avatar">
+          <h2 class="person__name">Mr Brad Gibson</h2>
         </div>
         <div class="person">
-          <img src="https://randomuser.me/api/portraits/med/men/75.jpg" alt="avatar">
-          <h2 class="name">Mr Brad Gibson</h2>
+          <img class="person__image" src="https://randomuser.me/api/portraits/med/men/75.jpg" alt="avatar">
+          <h2 class="person__name">Mr Brad Gibson</h2>
         </div>
+
       </div>
     </div>
 
