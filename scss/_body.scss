@@ -1,10 +1,33 @@
 //*Ten plik nie jest kompilowany (_nazwa), a jest dołączony poprzez @import
 
 body {
-  font-family: "Roboto", sans-serif;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  height: 100vh;
+}
+
+.wrapper {
+  width: 80vw;
+  font-size: 1.5rem;
+}
+
+.form {
+  margin: 20px;
+}
+
+.people {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  background-color: rgb(189, 235, 250);
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  .name {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-left: 20px;
+  }
 }

@@ -12,12 +12,38 @@
     <title>My project</title>
   </head>
   <body>
-    <h1>Project Starter</h1>
+    <div class="wrapper">
+      <form class="form" action="/">
+        <label for="sex">Wybierz płeć</label>
+        <select id="sex" name="sex">
+          <option value="all">Wszyscy</option>
+          <option value="male">Mężczyzna</option>
+          <option value="female">Kobieta</option>
+        </select>
+        <label for="count">Liczba osób</label>
+        <input type="number" name="count" id="count">
+        <button type="submit">Pobierz</button>
+      </form>
+      <div class="people">
+        <div class="person">
+          <img src="https://randomuser.me/api/portraits/med/men/75.jpg" alt="avatar">
+          <h2 class="name">Mr Brad Gibson</h2>
+        </div>
+        <div class="person">
+          <img src="https://randomuser.me/api/portraits/med/men/75.jpg" alt="avatar">
+          <h2 class="name">Mr Brad Gibson</h2>
+        </div>
+        <div class="person">
+          <img src="https://randomuser.me/api/portraits/med/men/75.jpg" alt="avatar">
+          <h2 class="name">Mr Brad Gibson</h2>
+        </div>
+        <div class="person">
+          <img src="https://randomuser.me/api/portraits/med/men/75.jpg" alt="avatar">
+          <h2 class="name">Mr Brad Gibson</h2>
+        </div>
+      </div>
+    </div>
 
     <script src="js/script.js"></script>
-    <script
-      src="https://kit.fontawesome.com/a89a4a0d2b.js"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
