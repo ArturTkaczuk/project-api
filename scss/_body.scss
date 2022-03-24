@@ -1,0 +1,10 @@
+//*Ten plik nie jest kompilowany (_nazwa), a jest dołączony poprzez @import
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
